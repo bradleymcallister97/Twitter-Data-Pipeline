@@ -12,7 +12,11 @@ Moves data from Twitter to Elasticsearch through Kafka and RabbitMQ.
 - Word count string is parsed to JSON object
 - Word count JSON object is saved to Elasticsearch
 
+## Steps
+Twitter &rarr; twitter-java-producer &rarr; Kafka &rarr; py-wordcount &rarr; RabbitMQ &rarr; kafka-elasticsearch-connector &rarr; Elasticsearch
+
 ## Services
+
 ### twitter-java-producer
 Java service which pulls data from Twitter and publishes it to Kafka
 
