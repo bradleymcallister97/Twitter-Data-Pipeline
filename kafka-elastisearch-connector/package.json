@@ -1,0 +1,15 @@
+{
+  "name": "kafka-elastisearch-connector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bradley McAllister",
+  "license": "ISC",
+  "dependencies": {
+    "amqp": "^0.2.6",
+    "elasticsearch": "^14.2.2"
+  }
+}
