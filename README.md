@@ -23,5 +23,5 @@ Java service which pulls data from Twitter and publishes it to Kafka
 ### py-wordcount
 Python services which consumes from Kafka. Once a tweet is consumed the word count is calculated. The word count is published to RabbitMQ
 
-### kafka-elasticsearch-connector
+### elasticsearch-connector
 Node service which consumes from RabbitMQ. Once a word count object is consumed it is stored to Elasticsearch
